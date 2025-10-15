@@ -1,26 +1,28 @@
-# === Frontend ===
+# Node modules (Backend)
+node_modules/
+npm-debug.log
+.env
+.DS_Store
+
+# Node modules (Frontend)
 frontend/node_modules/
 frontend/build/
-frontend/citycare-frontend/node_modules/
-frontend/citycare-frontend/build/
+frontend/.env.local
+frontend/.DS_Store
 
-# === Environment files ===
-.env
-
-# === Logs ===
+# Logs
+logs/
 *.log
-npm-debug.log*
-yarn-debug.log*
-yarn-error.log*
-*.tmp
-*.swp
+pids/
+*.pid
+*.seed
 
-# === IDE / Editor files ===
-.idea/
+# IDE
 .vscode/
-.DS_Store
-Thumbs.db
+.idea/
 
-# === OS files ===
-*.bak
-*.orig
+# Mac
+*.DS_Store
+
+# Others
+*.tgz
