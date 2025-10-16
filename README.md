@@ -33,9 +33,3 @@ This is a fullstack project aimed at providing a civic issue reporting platform.
 - The project is a **work in progress** and demonstrates the core structure and effort put into the hackathon.
 - All code pushed is functional in structure but may require database setup (`MongoDB URI` in `.env`) to fully work.
 
-### How to Run
-1. **Backend:**
-   ```bash
-   cd backend
-   npm install
-   npm run dev
